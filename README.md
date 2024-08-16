@@ -17,13 +17,10 @@ This project is a back-end application developed using Node.js and Express.js th
    ```bash
    git clone https://github.com/NandishYadav/LMS.git
    cd LMS
-  npm install
-
-  cp .env.example .env
-
-  npm run start
-
-  ```
+   npm install
+   cp .env.example .env
+   npm run start
+   ```
 
 ## API Endpoints
     Below are the available API endpoints grouped by functionalities:
