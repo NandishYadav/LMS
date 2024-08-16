@@ -80,3 +80,12 @@ This project is a back-end application developed using Node.js and Express.js th
 
 - **DELETE `/lessons/:id`**
   - Description: Delete a lesson by Id.
+
+
+### Assumptions and Decisions
+
+- **Database Design**: Used a non-relational database with tables for Users, Courses, and Lessons. Established relationships between Courses and Lessons.
+
+- **Security**: Implemented JWT for authentication. Applied input validation and proper error handling. Secured API endpoints against common vulnerabilities.
+  
+- **Performance**:Optimized database queries with indexing.
